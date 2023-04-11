@@ -471,9 +471,21 @@ color: #E91E63;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 87vh;
+    height: 95vh;
     padding-bottom: 150px;
     padding-top: 150px;
+}
+
+@media (max-width: 767px) {
+    .service-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+        padding-bottom: 150px;
+        padding-top: 0;
+    }
 }
 
 .service-card .box{
@@ -735,6 +747,7 @@ object-fit: cover;
 #img-bord h3{
     position: absolute;
     color: #fff;
+    
     top: 40%;
     left: 50%;
     transform: translateX(-50%);
@@ -746,6 +759,21 @@ object-fit: cover;
 #img-bord .give{
     color: #E91E63;
 }
+
+
+    @media (max-width: 767px) {
+
+        #img-bord h3{
+        width: 100%;
+        text-align: center;
+            font-size: 40px;
+        }
+        
+
+
+    }
+    
+    
 
 
 /* end img-bord */
@@ -795,6 +823,24 @@ object-fit: cover;
     width: 100%;
 
 }
+
+
+@media (max-width: 767px) {
+    #trainers .people{
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: -35px;
+        z-index: 99;
+        width: 100%;
+    
+    }
+    
+}
+    
+    
 
 .people a{
     color: #000;

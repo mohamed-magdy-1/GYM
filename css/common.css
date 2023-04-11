@@ -357,7 +357,8 @@ header .logo {
 .box-product .card-bro .pro-box .pro-cont .start-g-1 {
     position: absolute;
     top: -1px;
-    left: 28%;
+    left: 25%;
+    font-size: 20px;
 
     color: #f3b519;
 }
@@ -385,6 +386,24 @@ header .logo {
     bottom: 0px;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .box-product .card-bro .pro-box .pro-cont {
+
+        padding-top: 55px;
+    }
+    .div-button {
+        bottom: -5px;
+    }
+
+    .box-product .card-bro .pro-box .pro-cont .start-g-1 {
+        top: 10px;
+        left: 43px;
+        font-size: 25px;
+    }
+
+
 }
 
 .button {
@@ -476,10 +495,12 @@ line-height: 3;
 
     }
     .privacy-box{
-
+        width: 100%;
+        padding: 15px;
         height: auto;
 
     }
+
 
 
 }
